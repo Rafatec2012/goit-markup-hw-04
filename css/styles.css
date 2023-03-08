@@ -43,6 +43,9 @@ header{
   justify-content: center;
 background-color: #2f303a;
 gap: 50px;
+background-image: url(../images/grupo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
  
 }
 

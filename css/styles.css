@@ -432,4 +432,12 @@ ul,h1,h2,h3,h4,h5,h6{
   padding: 0;
 }
 
-  
+  .invisible{
+    width: 270px;
+height: 120px;
+left: 1106px;
+top: 769px;
+
+background: #F5F4FA;
+border-radius: 4px;
+  }

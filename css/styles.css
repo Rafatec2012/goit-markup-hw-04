@@ -449,3 +449,28 @@ align-content: center;
   margin-left: 550px;
   margin-top: 50px;
 }
+.company{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+ 
+
+}
+.recuadros{
+  
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+width: 100px;
+height: 90px;
+left: 415px;
+top: 2447px;
+
+
+}
+.recuadros>use{
+fill:  #AFB1B8;
+}
+.redes-profeciones{
+  display: flex;
+  justify-content: center;
+}

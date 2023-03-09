@@ -29,6 +29,8 @@ header{
 .section{
   padding-top: 94px;
   padding-bottom: 94px;  
+  
+
 }
 
 .nav-item:not(:last-child),
@@ -46,7 +48,7 @@ gap: 50px;
 background-image: url(../images/grupo.jpg);
 background-repeat: no-repeat;
 background-size: cover;
- 
+
 }
 
 .intro-title  {
@@ -205,6 +207,8 @@ p {
 display: flex;
 margin: 60px;
 justify-content:space-around ;
+
+
 
 }
 
@@ -432,12 +436,16 @@ ul,h1,h2,h3,h4,h5,h6{
   padding: 0;
 }
 
-  .invisible{
-    width: 270px;
-height: 120px;
-left: 1106px;
-top: 769px;
-
-background: #F5F4FA;
-border-radius: 4px;
-  }
+ 
+.iconos-footer{
+  display: flex;
+align-content: center;
+ justify-content: center;
+ gap: 10px;
+ 
+}
+.avisos{
+  
+  margin-left: 550px;
+  margin-top: 50px;
+}

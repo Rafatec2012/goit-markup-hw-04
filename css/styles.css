@@ -460,9 +460,10 @@ ul,h1,h2,h3,h4,h5,h6{
 align-content: center;
  justify-content: center;
  gap: 10px;
- margin-top: 10px;
  fill: #ececec;
  border-radius: 50%;
+ display: inline-flexbox;
+ 
  
 }
  
@@ -484,10 +485,10 @@ margin-left: 560px;
 .company{
   margin-bottom: 151px;
   align-items: center;
-  justify-content:space-between;
+  gap: 30px;
  display: flex;
- 
  cursor: pointer;
+ margin-left: 90px;
  
  
   
@@ -495,14 +496,23 @@ margin-left: 560px;
 .hey:hover{
   fill: #2196f3;
 }
-    .recuadros{
+.recuadros{
+ display: inline-block;
+ width: 40px;
+ height: 52px;
  
+
+}
+.iconservi{
   width: 170px;
 height: 81px;
-border: 1px solid #AFB1B8;
-border-radius: 4px;
-margin-top: 40px;
-
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+background: #fcfafa;
 }
 
 
@@ -522,6 +532,7 @@ fill:  #AFB1B8;
   justify-content: center;
   gap: 30px;
   margin-top: px;
+  cursor: pointer;
   
 }
 .antena-ymas{
@@ -541,8 +552,6 @@ margin-top: 60px;
 }
 .instagran-twiter{
   fill: #ececec;
- 
-  
   border-radius: 50%;
   border: 1px solid #ecedef;
   
@@ -560,4 +569,11 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-top: 85px;
+}
+.heyiconos:hover{
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50% ;
+cursor: pointer;
+border: 1px solid rgba(255, 255, 255, 0.1);
+
 }

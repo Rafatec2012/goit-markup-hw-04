@@ -99,21 +99,25 @@ font-weight: 700;
   letter-spacing: 0.03em;
   color: #212121;
  text-align: center;
- margin: 40px;
+ margin-top: 60px;
+
 }
 
 .seccion-sec {
  background-color: #f5f4fa;
- height: 648px;
+margin-block: 300px;
+height: 708px;
 
 }
 ul {
   list-style: none;
 }
 .footer {
-  font-style: normal;
   background-color: #2f303a;
-  padding: 40px;
+  padding: 0%;
+ 
+ 
+
 
 }
 
@@ -146,6 +150,13 @@ ul {
 .mail-tel-header:hover {
   color: #2196f3;
 }
+.sobre-tel:hover{
+  fill: #2196f3;
+ 
+}
+
+
+
 .mail-tel-header:focus {
   color: #2196f3;
 }
@@ -189,6 +200,7 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+ 
 
 
 
@@ -202,11 +214,12 @@ p {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 30px;
 }
 .images-productos{
 display: flex;
 margin: 60px;
-justify-content:space-around ;
+justify-content:space-around;
 
 
 
@@ -387,6 +400,9 @@ border: 1px solid #EEEEEE;
 .img{
 flex-basis: calc((100% - 100px) / 4);
 background: #FFFFFF;
+margin-top: 20px;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 
 }
 .images-equipo:hover{
@@ -442,35 +458,83 @@ ul,h1,h2,h3,h4,h5,h6{
 align-content: center;
  justify-content: center;
  gap: 10px;
+ margin-top: 10px;
+ fill: #ececec;
+ border-radius: 50%;
+ 
+
  
 }
 .avisos{
-  
-  margin-left: 550px;
-  margin-top: 50px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-left: 560px;
+
 }
 .company{
-  display: flex;
   align-items: center;
- justify-content: center;
+  justify-content: center;
+ display: flex;
+ gap: 30px;
  
-
+ 
+  
+}
+.hey:hover{
+  fill: #2196f3;
 }
 .recuadros{
-  
+  width: 170px;
+height: 81px;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
-width: 100px;
-height: 90px;
-left: 415px;
-top: 2447px;
-
-
+margin-top: 40px;
 }
+
+
 .recuadros>use{
 fill:  #AFB1B8;
+
+}
+.clientes{
+  text-align: center;
+  margin-top: 160px;
+}
+.redes-pro>use{
+  fill:  #AFB1B8;
 }
 .redes-profeciones{
   display: flex;
   justify-content: center;
+  gap: 30px;
+  
+}
+.antena-ymas{
+  width: 270px;
+  height: 120px;
+background: #F5F4FA;
+border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.position-logo{
+  display: flex;
+  
+  
+}
+.instagran-twiter{
+  border-radius: 50%;
+  fill: #ececec;
+  
+}
+.instagran-twiter:hover{
+  background-color: #2196f3;
+ 
 }

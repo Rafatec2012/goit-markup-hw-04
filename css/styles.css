@@ -24,6 +24,7 @@ header {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  
  
 }
 
@@ -99,7 +100,7 @@ background: rgba(47, 48, 58, 0.4);
   letter-spacing: 0.03em;
   color: #212121;
   text-align: center;
- margin-top: -100px;
+ margin-top: -10px;
   
  
 }
@@ -212,7 +213,7 @@ p {
 .images-productos {
   display: flex;
   justify-content: space-around;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .header-id {
@@ -343,21 +344,29 @@ a {color: currentColor;
 .entretenimiento {
   display: flex;
   flex-wrap: wrap;
-  gap: 27px;
+  gap: 20px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
+  
+ 
 }
 .entretenimiento > li {
   flex-basis: calc((100% - 60px) / 3);
+  border: 1px solid #eeeeee;
+  
 }
 
 .entretenimiento > li:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+   
 }
+
 
 .play {
   border: 1px solid #eeeeee;
+  width: 380px;
+height: 294px;
 }
 .descrition {
   width: 322px;
@@ -374,7 +383,7 @@ a {color: currentColor;
   gap: 30px;
   padding: 0;
   list-style: none;
-  margin-top: 250px;
+  margin-top: 100px;
 }
 
 .img {
@@ -405,12 +414,14 @@ a {color: currentColor;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-left: 30px;
 }
 .sub-actividades {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
+  margin-left: 30px;
 }
 
 .nav-menu {
@@ -436,6 +447,9 @@ h6 {
   padding: 0;
 }
 
+svg{
+  fill: currentColor #AFB1B8;;
+}
 
 
 .avisos {
@@ -445,11 +459,7 @@ h6 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-top: 100px;
-  margin-left: 500px;
- 
   
- 
 }
 .company {
   margin-bottom: 151px;
@@ -461,7 +471,8 @@ h6 {
   margin-top: 50px;
 }
 .hey:hover {
-  fill: #2196f3;
+ fill: #2196f3;
+
 }
 .recuadros {
   display: inline-block;
@@ -480,9 +491,14 @@ h6 {
   background: #fcfafa;
 }
 
+.iconservi:hover{
+  border: 1px solid #2196f3;
+}
+
 .recuadros > use {
   fill: #afb1b8;
 }
+
 .clientes {
   text-align: center;
   margin-top: 140px;
@@ -523,8 +539,14 @@ fill: #ffffff;
   margin-top: -10px;
 }
 
+.estilos:hover{
+  fill: #2196f3;
+  cursor: pointer;
+
+}
+
  a{
-  color: currentColor;
+  color: currentColor  #AFB1B8;;
   text-decoration: none;
  } 
 
@@ -551,7 +573,6 @@ fill: #ffffff;
 .heyiconos{
   display: flex;
   align-items: center;
-  margin-left: 500px;
   gap: 10px;
  
  
@@ -565,6 +586,7 @@ fill: #ffffff;
  justify-content: center;
  border-radius: 50%;
  background: rgba(255, 255, 255, 0.1);
+
 }
 
 .icon-yei:hover{
@@ -593,12 +615,24 @@ fill: #ffffff;
 }
 .hp {
   color: #ffffff;
-  margin-right: 100px;
-  margin-top: 30px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+margin-right: 60px;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+
+  
+}
+.address{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  gap: 60px;
+  margin-top: 40px;
 }

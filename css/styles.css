@@ -17,6 +17,7 @@ header {
   height: 80px;
   display: flex;
   align-items: center;
+
 }
 
 .container {
@@ -152,12 +153,11 @@ ul {
   align-items: center;
   gap: 5px;
 }
-.mail-tel-header:hover {
+.mai:hover {
   color: #2196f3;
+  
 }
-.sobre-tel:hover {
-  fill: #2196f3;
-}
+
 
 .mail-tel-header:focus {
   color: #2196f3;
@@ -344,14 +344,14 @@ a {color: currentColor;
 .entretenimiento {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 27px;
   background: #ffffff;
   
- 
 }
 .entretenimiento > li {
-  flex-basis: calc((100% - 60px) / 3);
   border: 1px solid #eeeeee;
+  flex-basis: calc((100% - 60px) / 3);
+  
   
 }
 
@@ -364,10 +364,9 @@ a {color: currentColor;
 
 
 .play {
-  border: 1px solid #eeeeee;
   width: 380px;
-height: 294px;
 }
+
 .descrition {
   width: 322px;
   height: 36px;
@@ -415,6 +414,10 @@ height: 294px;
   line-height: 2;
   letter-spacing: 0.06em;
   margin-left: 30px;
+
+  width: 322px;
+height: 72px;
+
 }
 .sub-actividades {
   font-weight: 400;
@@ -422,6 +425,7 @@ height: 294px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   margin-left: 30px;
+  margin-top: -10px;
 }
 
 .nav-menu {
@@ -448,7 +452,7 @@ h6 {
 }
 
 svg{
-  fill: currentColor #AFB1B8;;
+  fill:currentColor;
 }
 
 
@@ -467,17 +471,23 @@ svg{
   gap: 30px;
   display: flex;
   cursor: pointer;
-  margin-left: 90px;
+  justify-content: center;
   margin-top: 50px;
+ 
+  
 }
-.hey:hover {
- fill: #2196f3;
 
+.iconservi:hover {
+  border: 1px solid #2196f3;
+  color: #2196f3;
+ 
 }
+
 .recuadros {
   display: inline-block;
-  width: 60px;
-  height: 81px;
+  width: 120px;
+  
+ 
 }
 .iconservi {
   width: 170px;
@@ -487,16 +497,9 @@ svg{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -20px;
-  background: #fcfafa;
-}
+  color: #AFB1B8;
 
-.iconservi:hover{
-  border: 1px solid #2196f3;
-}
-
-.recuadros > use {
-  fill: #afb1b8;
+ 
 }
 
 .clientes {
@@ -512,12 +515,12 @@ svg{
   align-items: center;
   justify-content: center;
   border-radius: 50px;
-  fill: #AFB1B8;
+  color: #AFB1B8;
 
 }
 .icon-container:hover{
   background-color: #2196f3;
-fill: #ffffff;
+color: #ffffff;
 }
 
 .redes-profeciones {
@@ -539,14 +542,14 @@ fill: #ffffff;
   margin-top: -10px;
 }
 
-.estilos:hover{
-  fill: #2196f3;
+.antena-ymas:hover{
+  color: #2196f3;
   cursor: pointer;
 
 }
 
  a{
-  color: currentColor  #AFB1B8;;
+  color: currentColor;
   text-decoration: none;
  } 
 
@@ -560,13 +563,18 @@ fill: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -1px;
+  margin-top: 15px;
+}
+
+.reloj:hover{
+  color: #2196f3;
+  cursor: pointer;
 }
 .iconos-footer {
   display: flex;
   align-content: center;
   display: inline-block;
-  fill: #ececec;
+  color: #ececec;
 
 }
 
@@ -594,7 +602,7 @@ fill: #ffffff;
 
 }
 .cambia{
-  fill: #ececec;
+  color: #ececec;
 }
 
 .oneimagen {
